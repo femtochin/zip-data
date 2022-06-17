@@ -1,0 +1,56 @@
+.borderRadius {
+  border-radius: 6px;
+}
+.roundedCircle {
+  border-radius: 100%;
+}
+.breadCrumbsCard {
+    border-radius: 15px !important;
+    padding: 20px 25px !important;
+    margin: 20px 30px !important;
+    box-shadow: 0px 7px 30px 0px rgb(90 114 123 / 11%) !important;
+}
+.marginTop {
+  margin-top: 00px !important;
+}
+.iconlist {
+    left: 0px;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    box-shadow: rgb(0 0 0 / 7%) 0px 0px 21px 1px;
+    transition: left 0.3s ease 0s;
+    z-index: 1211;
+    background-color: rgb(255, 255, 255);
+}
+.logoBox {
+  width: 100%;
+  text-align: center;
+  padding: 1px;
+  margin: 20px 0 15px 0;
+  cursor: pointer;
+}
+.logoBox img {
+  width:35px !important;
+  height:35px !important;
+}
+.listIconBttn {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+.listIconBttn:hover {
+  color:grey
+}
+.logoText {
+  margin: 25px 0 20px 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: none;
+  white-space: normal;
+  font-family: Montserrat, sans-serif;
+  text-size-adjust: 100%;
+}
