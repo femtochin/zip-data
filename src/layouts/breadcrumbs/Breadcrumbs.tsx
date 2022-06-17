@@ -1,30 +1,18 @@
 import * as React from "react";
-import Breadcrumbs from "@mui/material/Breadcrumbs";
-import Link from "@mui/material/Link";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
+import { BreadcrumbComponent, BreadcrumbItemsDirective, BreadcrumbItemDirective } from '@syncfusion/ej2-react-navigations'
+
 
 const ActiveLastBreadcrumb = () => {
   return (
     <>
-      <Card sx={{ minWidth: 275 }} className="breadCrumbsCard">
-        <Grid item xs={12} lg={12}>
-          <div>
-            <Breadcrumbs aria-label="breadcrumb">
-              <Link underline="hover" color="inherit" href="/">
-                Home
-              </Link>
-              <Link
-                underline="hover"
-                color="inherit"
-                href="/material-ui/getting-started/installation/"
-              >
-                Dashboard
-              </Link>
-            </Breadcrumbs>
-          </div>
-        </Grid>
-      </Card>
+    <BreadcrumbComponent enableNavigation={false}>
+:       <BreadcrumbItemsDirective>
+            <BreadcrumbItemDirective iconCss="e-icons e-home" url="https://ej2.syncfusion.com/home/react.html#platform"/>
+            <BreadcrumbItemDirective text="Components" url="https://ej2.syncfusion.com/react/demos/#/material/grid/overview/"/>
+            <BreadcrumbItemDirective text="Navigations" url="https://ej2.syncfusion.com/react/demos/#/material/menu/default"/>
+            <BreadcrumbItemDirective text="Breadcrumb" url="./breadcrumb/default"/>
+        </BreadcrumbItemsDirective>
+    </BreadcrumbComponent>
     </>
   )
 }
